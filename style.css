@@ -1,0 +1,235 @@
+/* The <ul> tag defines an unordered (bulleted) list */
+ul {
+    /* Remove list bullets */
+    list-style-type: none;
+    
+    /* The CSS margin properties are used to create space around elements, outside of any defined borders */
+    margin: 0;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 0;
+    
+    /* The overflow property specifies what should happen if content overflows an element's box. */
+    overflow: hidden;
+    
+    /*  */ 
+    background-color: #333;
+}
+/* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
+li {
+    /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+    float:left;
+}
+/* The <a> tag defines a hyperlink, which is used to link from one page to another. */
+li a {
+    /* The display property specifies the display behavior (the type of rendering box) of an element. */
+    display: block;
+    
+    /*  */
+    color: white;
+    
+    /* The text-align property specifies the horizontal alignment of text in an element. */
+    text-align: center;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 14px 16px;
+    
+    /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
+}
+/* The :hover selector is used to select elements when you mouse over them. */
+li a:hover {
+    /*  */
+    background-color: rgb(80, 2, 2, 0.2);
+    font-size: 130%;
+}
+
+li a .active {
+    /*  */
+    background-color: #111;
+}
+
+.topnav a.active {
+    background-color: #410909;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  * {box-sizing:border-box}
+
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/04/red-aesthetic-wallpaper-desktop.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image1 {
+    /* The image used */
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/06/aesthetic-wallpaper-20060615274317.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text1 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    font-size: larger;
+    border: 3px solid #666666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image2 {
+    /* The image used */
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/3/1c/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-47.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text2 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 3px solid #9617859a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+   /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align:center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Instagram */
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+
+  /* YouTube*/
+  .fa-youtube {
+      background: crimson;
+      color: white;
+  }
+
+
+
+
