@@ -231,5 +231,10 @@ li a .active {
   }
 
 
+h1{
 
+  font-style: italic;
+  font-family: cursive;
+  font-size: 250%;
+}
 
